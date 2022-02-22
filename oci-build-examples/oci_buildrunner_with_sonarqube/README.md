@@ -33,6 +33,18 @@ A sample illustation of integrating [OCI Devops](https://docs.oracle.com/en-us/i
 
 * Clone this repo and push to one of the target code repo .You may use any of the OCI devops supported code repo for the usage (OCI Code repo ,Github,Gitlab etc)
 
+  * Specific instruction to clone only this example.
+
+    ```
+    $ git init oci_devops_sonarqube
+    $ cd oci_devops_sonarqube
+    $ git remote add origin <url to this git repo>
+    $ git config core.sparsecheckout true
+    $ echo "oci-build-examples/oci_buildrunner_with_sonarqube/*">>.git/info/sparse-checkout
+    $ git pull --depth=1 origin main
+
+    ```
+
 * In this example we have used `GITHUB` with an `external connection` method with OCI devops.
   
   * Doc reference -  https://docs.oracle.com/en-us/iaas/Content/devops/using/create_connection.htm  
