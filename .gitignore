@@ -31,3 +31,7 @@ Temporary Items
 .crt
 .csr
 .pem
+
+#Ignore local sonar files
+sonar-local.properties
+./github/workflows/*
