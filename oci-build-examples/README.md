@@ -6,5 +6,5 @@ Quality & Security
 
 -----
 
-* [Integrate sonarqube with OCI devops build runner.](./oci_buildrunner_with_sonarqube/README.md)
+* [Integrate sonarqube with OCI devops build runner.](./oci_buildrunner_with_sonarqube/)
 
