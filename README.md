@@ -12,10 +12,10 @@ The service also provides private Git repositories to store your code and it sup
 
 ## OCI Devops examples 
 
--   [CICD with OCI Devops services - samples](./pipeline-examples/README.md)         
--   [OCI Devops Build service - samples](./build-examples/README.md) 
--   [OCI Devops Deployment service - samples](./deployment-examples/README.md) 
--   [OCI Source Code Management service - sample](./coderepo-examples/README.md)
+-   [CICD with OCI Devops services - samples](./oci-pipeline-examples/README.md)         
+-   [OCI Devops Build service - samples](./oci-build-examples/README.md) 
+-   [OCI Devops Deployment service - samples](./oci-deployment-examples/README.md) 
+-   [OCI Source Code Management service - sample](./oci-coderepo-examples/README.md)
 
 
 ## Contributing
