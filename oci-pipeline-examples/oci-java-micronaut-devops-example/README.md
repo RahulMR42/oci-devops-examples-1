@@ -11,6 +11,19 @@ Objective
 - Push the artifact to OCI Container repo.
 - Use OCI Deployment pipeline and deploy to OCI OKE.
 
+Specific instructions to download only this sample.
+---
+
+```
+    $ git init oci_devops_sample
+    $ cd oci_devops_sample
+    $ git remote add origin <url to this git repo>
+    $ git config core.sparsecheckout true
+    $ echo "oci-pipeline-examples/oci-java-micronaut-devops-example/*">>.git/info/sparse-checkout
+    $ git pull --depth=1 origin main
+
+```
+
 Procedure
 ---
 
