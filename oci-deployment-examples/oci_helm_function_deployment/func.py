@@ -50,10 +50,11 @@ class oci_cli_actions():
         try:
             ce_client = oci.container_engine.ContainerEngineClient(config={'region': self.region}, signer=self.signer)
             config_response = ce_client.create_kubeconfig(oke_cluster_id)
-            with open('/tmp/kubeconfig', 'w') as file:
+            config_path="/tmp/kubeconfig"
+            with open(config_path, 'w') as file:
                 file.write(config_response.data.text)
-            os.environ['KUBECONFIG'] = '/tmp/kubeconfig'
-            outcome = execute_shell_command(['chmod','go-r','/tmp/kubeconfig'])
+            os.environ['KUBECONFIG'] = config_path
+            outcome = execute_shell_command(['chmod','go-r',config_path])
             chart_name = artifact_path.strip('.zip').replace("_","-")
             logging.getLogger().info(f"Attempting Helm install with version {artifact_version}")
             outcome = execute_shell_command(['helm','history',chart_name])
