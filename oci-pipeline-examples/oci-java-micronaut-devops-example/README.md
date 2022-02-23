@@ -100,6 +100,12 @@ https://docs.oracle.com/en-us/iaas/Content/devops/using/add_buildstage.htm#add_b
 
 ![](images/buildlog1.png)
 
+Contributors 
+===========
+
+- Author : Rahul M R.
+- Colloboroators : NA
+- Last release : Feb 2022
 
 Back to examples
 ============
