@@ -107,11 +107,13 @@ Contributors
 - Colloboroators : NA
 - Last release : Feb 2022
 
-Back to examples
+
+### Back to examples.
 ============
 
-- [Back to OCI Devops pipeline sample](./../README.md)
-- [Back to OCI Devops sample](./../../README.md)
+- 🍿 [Back to OCI Devops Pipeline sample](./../README.md)
+- 🏝️ [Back to OCI Devops sample](./../../README.md)
+
 
 
 
