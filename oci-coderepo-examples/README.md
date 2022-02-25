@@ -6,7 +6,9 @@ All about OCI devops coderepo samples ..
 
   </details>
 
-Back to examples
+
+### Back to examples.
 ============
 
-- [Back to OCI Devops sample](./../README.md)
+- 🏝️ [Back to OCI Devops sample](./../../README.md)
+
