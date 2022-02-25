@@ -109,7 +109,7 @@ Contributors
 
 
 ### Back to examples.
-============
+----
 
 - 🍿 [Back to OCI Devops Pipeline sample](./../README.md)
 - 🏝️ [Back to OCI Devops sample](./../../README.md)

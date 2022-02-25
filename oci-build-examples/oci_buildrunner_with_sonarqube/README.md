@@ -202,7 +202,7 @@ Contributors
 - Last release : Feb 2022
 
 ### Back to examples.
-============
+----
 
 - 🍿 [Back to OCI Devops Build sample](./../README.md)
 - 🏝️ [Back to OCI Devops sample](./../../README.md)
